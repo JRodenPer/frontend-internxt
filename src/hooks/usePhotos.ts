@@ -30,7 +30,6 @@ export const usePhotos = () => {
   );
 
   const fetchPhotos = async (page: number) => {
-    if (hasMore && !error) return;
     setLoading(true);
     setError(null);
     try {
