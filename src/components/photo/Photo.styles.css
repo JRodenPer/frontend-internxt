@@ -1,0 +1,12 @@
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  background: var(--background-color);
+}
+
+@media (max-width: 599px) {
+  .photo {
+    border-radius: 0px;
+  }
+}
